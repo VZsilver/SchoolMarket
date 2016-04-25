@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>个人资料</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link href="../css/common.css" rel="stylesheet" type="text/css">
+    <link href="../css/individual_data.css"  rel="stylesheet" type="text/css">
+    <style>
+        .right-nav ul a:nth-child(1) li{
+            background: #00bce6;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!--头部-->
+    <header class="main-head">
+        <div class="container">
+            <!--左侧登录注册-->
+            <div class="head-left">
+                <ul class="list-inline">
+                    <li><a href="login.html" target="_self">请登录</a></li>
+                    <li><a href="register.html" target="_self">30秒注册</a></li>
+                    <li><a href="#" target="_self">手机客户端</a></li>
+                </ul>
+            </div>
+            <!--右侧导航-->
+            <div class="head-right">
+                <ul class="list-inline">
+                    <li><a href="home.html" target="_self">首页</a></li>
+                    <li class="dropdown">
+                        <a href="myshow.html" class="dropdown-toggle" data-toggle="dropdown">
+                            我展出的宝贝
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">
+                                <a href="myshow.html" target="_self" class="menuitem" tabindex="-1">二手宝贝</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="myshow2.html" target="_self" class="menuitem" tabindex="-1">特产宝贝</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="mybrowse.html" target="_self">我的浏览</a></li>
+                    <li><a href="mycollect.html" target="_self">我的收藏</a></li>
+                    <li><a href="individual_center.html" target="_self">个人中心</a></li>
+                    <li><a href="agreement.html" target="_self">我要合作</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="top">
+        <div class="container">
+            <a href="home.html" target="_self">
+                <img src="../images/sm2.png">
+            </a>
+        </div>
+    </div>
+
+    <!--主体内容-->
+    <div class="container">
+        <div class="data">
+            <div class="right-nav">
+                <h3>个人资料管理</h3>
+                <ul>
+                    <a href="individual_data.html" class="active" target="_self"><li>个人资料</li></a>
+                    <a href="perfect_data.html" target="_self"><li>完善资料</li></a>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>姓名</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>XX</h5>
+                                </div>
+                                <div class="col-md-2">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        <h5>修改密码 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <h5>
+                                    <span class="glyphicon glyphicon-ok" aria-hidden="true" style="color: #6cc88a"></span>
+                                    修改密码
+                                </h5>
+                                <div class="change-pwd">
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label">原始密码：</label>
+                                            <div class="col-md-8">
+                                                <input type="password" class="form-control" name="old-pwd" maxlength="20">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label">新密码：</label>
+                                            <div class="col-md-8">
+                                                <input type="password" class="form-control" name="new-pwd" maxlength="20">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <label class="col-md-4 control-label">确认密码：</label>
+                                            <div class="col-md-8">
+                                                <input type="password" class="form-control" name="prove-pwd" maxlength="20">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="col-md-3 col-md-offset-4">
+                                        <button type="submit" class="btn btn-success">保存</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>性别</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>男/女</h5>
+                                </div>
+                                <div class="col-md-2">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                        <h5>编辑 <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <input type="radio" name="sex" value="boy"> 男&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="sex" value="girl"> 女&nbsp;&nbsp;&nbsp;
+                                <button type="submit" class="btn btn-success">保存</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>学号</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>XXXXXXXXXXXXXX</h5>
+                                </div>
+                                <div class="col-md-2">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                        <h5>编辑 <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">新学号</label>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" name="new-number" maxlength="20">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="submit" class="btn btn-success">保存</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>联系方式</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>xxxxxxx</h5>
+                                </div>
+                                <div class="col-md-2">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                        <h5>编辑 <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">新号码</label>
+                                        <div class="col-md-5">
+                                            <input type="tel" class="form-control" name="new-tel" maxlength="15">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="submit" class="btn btn-success">保存</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>QQ号</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>xxxxxxx</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="col-md-4">
+                                <h5>常用邮箱</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>xxxxxxx</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">新号码</label>
+                                    <div class="col-md-5">
+                                        <input type="email" class="form-control" name="new-email" maxlength="15">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="submit" class="btn btn-success">保存</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>籍贯</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>xxxxxxx</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="col-md-4">
+                                <h5>住校地址</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>xxxxxxx</h5>
+                            </div>
+                            <div class="col-md-2">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                    <h5>编辑 <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseSix" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">新地址</label>
+                                    <div class="col-md-5">
+                                        <input type="text" class="form-control" placeholder="如：5-305" name="new-address" maxlength="15">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="submit" class="btn btn-success">保存</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>出生日期</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>xx-xxxxx</h5>
+                                </div>
+                                <div class="col-md-2">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseNight">
+                                        <h5>编辑 <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseNight" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">正确出生日期</label>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="1995-01-01" name="new-date" maxlength="15">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="submit" class="btn btn-success">保存</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <div class="col-md-4">
+                                    <h5>展出宝贝数量</h5>
+                                </div>
+                                <div class="col-md-2 col-md-offset-6">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                        <h5>展开/收起</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <label class="col-md-6 control-label">
+                                    二手宝贝x件
+                                    <a href="add.html" target="_blank" class="btn btn-info">添加二手宝贝</a>
+                                </label>
+                                <label class="col-md-6 control-label">
+                                    特产宝贝y件
+                                    <a href="add2.html" target="_blank" class="btn btn-success">添加特产宝贝</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

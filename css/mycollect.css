@@ -1,0 +1,72 @@
+.main-head{
+    height: 70px;
+}
+
+.head-right{
+    position: absolute;
+    left: 740px;
+}
+
+.top{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: 0px;
+    background: -moz-linear-gradient(top,#fff,#99e4f5);
+    background: -webkit-linear-gradient(top,#fff,#c8f0f9);
+    background: -ms-linear-gradient(top,#fff,#c8f0f9);
+    background: -o-linear-gradient(top,#fff,#99e4f5);
+    background: linear-gradient(top,#fff,#99e4f5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffffff,endcolorstr=#c8f0f9,gradientType=0);
+}
+
+.top .container{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.collect{
+    width: 1100px;
+    min-height: 640px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.item{
+    width: 180px;
+    height: 260px;
+    float: left;
+    margin: 20px 15px;
+}
+
+.item img{
+    width: 100%;
+    height: 180px;
+}
+
+.item .name{
+    width: 100%;
+    height: 20px;
+    color: #3c3c3c;
+    overflow: hidden;
+}
+
+.item .price{
+    width: 100%;
+    height: 20px;
+    color: #ff396a;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item button{
+    border: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background: #acacac;
+    color: #fff;
+}

@@ -1,0 +1,83 @@
+.main-head{
+    height: 70px;
+}
+
+.head-right{
+    position: absolute;
+    left: 740px;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    background: -moz-linear-gradient(top,#fff,#99e4f5);
+    background: -webkit-linear-gradient(top,#fff,#c8f0f9);
+    background: -ms-linear-gradient(top,#fff,#c8f0f9);
+    background: -o-linear-gradient(top,#fff,#99e4f5);
+    background: linear-gradient(top,#fff,#99e4f5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffffff,endcolorstr=#c8f0f9,gradientType=0);
+}
+
+.top .container{
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.data{
+    width: 950px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.data .right-nav{
+    width: 150px;
+    height: 100%;
+    float: left;
+    background: #caf1fa;
+}
+
+.right-nav ul{
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.right-nav ul li{
+    width: 100%;
+    height: 34px;
+    font-size: 15px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+}
+
+.right-nav ul li:hover{
+    background: #00bce6;
+    color: #fff;
+}
+
+.content{
+    width: 780px;
+    min-height: 400px;
+    padding: 30px;
+    padding-top: 50px;
+    float: right;
+}
+
+.panel-heading{
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.panel-heading .col-md-2{
+    text-align: right;
+}
+
+.change-pwd{
+    width: 350px;
+    height: 180px;
+}

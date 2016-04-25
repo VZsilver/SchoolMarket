@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei";
+    overflow-x: hidden;
+}
+
+.main-head{
+    height: 70px;
+}
+
+.head-right{
+    position: absolute;
+    left: 740px;
+}
+
+.register img{
+    width: 100%;
+    height: 670px;
+    background-size: cover;
+    opacity: 0.7;         /*IE9及以上, Firefox, Chrome, Opera 和 Safari*/
+    filter: alpha(opacity=70);   /*IE8及以下*/
+}
+
+.register .content{
+    position: absolute;
+    width: 520px;
+    height: 538px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -245px;
+    margin-left: -260px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-top: 45px solid #359018;
+    padding: 20px 100px 10px 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.title{
+    position: absolute;
+    top: -62px;
+    left: 50%;
+    margin-left: -85px;
+    width: 170px;
+    text-align: center;
+    color: #fff;
+}
+
+.glyphicon{
+    color: #359018;
+}
+
+.user{
+    font-size: 18px;
+    font-weight: 500;
+    color: #359018;
+}
+
+.input-group{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 320px;
+}
+
+input[name="prove"]{
+    width: 100px;
+}
+
+.prove-img{
+    width: 135px;
+    height: 35px;
+    position: absolute;
+    top: 364px;
+    left: 260px;
+}
+
+.prove-img a{
+    vertical-align: bottom;
+}
+
+.sbm{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.foot{
+    width: 100%;
+    height: 52px;
+    background: #fff;
+    position: fixed;
+    bottom: 0px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 10px;
+}

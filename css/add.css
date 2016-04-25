@@ -1,0 +1,117 @@
+.main-head{
+    height: 70px;
+}
+
+.head-right{
+    position: absolute;
+    left: 740px;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    background: -moz-linear-gradient(top,#fff,#c8f0f9);
+    background: -webkit-linear-gradient(top,#fff,#c8f0f9);
+    background: -ms-linear-gradient(top,#fff,#c8f0f9);
+    background: -o-linear-gradient(top,#fff,#c8f0f9);
+    background: linear-gradient(top,#fff,#c8f0f9);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffffff,endcolorstr=#c8f0f9,gradientType=0);
+    margin-bottom: 30px;
+}
+
+.top .container{
+    padding: 5px 70px 0 70px;
+}
+
+.logo{
+    float: left;
+}
+
+.search{
+    width: 426px;
+    height: 40px;
+    float: right;
+    margin-right: 70px;
+    padding-top: 10px;
+}
+
+.form-group{
+    margin-bottom: 0px;
+}
+
+.search .form-control{
+    border-radius: 10px 0px 0px 10px;
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    height: 32px;
+    border: 1px solid #4fc3f7;
+    border-right: 0px;
+}
+
+.search input{
+    width: 350px;
+    float: left;
+}
+
+.search button{
+    float: right;
+    padding: 5px 23px;
+    border-radius: 0px 4px 4px 0px;
+    -webkit-border-radius: 0px 4px 4px 0px;
+    -moz-border-radius: 0px 4px 4px 0px;
+}
+
+.btn-info{
+    background: #4fc3f7;
+}
+
+.btn-info:hover{
+    background: #6cc88a;
+}
+
+.middle{
+    width: 800px;
+    height: 920px;
+    margin: 0 auto;
+    border: 3px solid #00bce6;
+    box-shadow: 0 0 10px #00bce6;
+    -webkit-box-shadow: 0 0 10px #00bce6;
+    -moz-box-shadow: 0 0 10px #00bce6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.middle .caption{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    color: #00bce6;
+    margin-top: 30px;
+}
+
+.middle .content{
+    width: 55%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.middle .content .form-group{
+    margin-bottom: 25px;
+}
+
+.middle .content .input-group{
+    padding-left: 15px;
+}
+
+.sbm{
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: 20px;
+}
+
+.main-foot{
+    background: #aaaaab;
+}

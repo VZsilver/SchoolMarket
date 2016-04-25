@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>注册</title>
+    <link href="../css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet" type="text/css">
+    <link href="../css/register.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <!--头部-->
+    <header class="main-head">
+        <div class="container">
+            <div class="head-left">
+                <ul class="list-inline">
+                    <li><a href="login.html" target="_self">请登录</a></li>
+                    <li><a href="register.html" target="_self">30秒注册</a></li>
+                    <li><a href="#" target="_self">手机客户端</a></li>
+                </ul>
+            </div>
+            <div class="head-right">
+                <ul class="list-inline">
+                    <li><a href="home.html" target="_self">首页</a></li>
+                    <li class="dropdown">
+                        <a href="myshow.html" class="dropdown-toggle" data-toggle="dropdown">
+                            我展出的宝贝
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">
+                                <a href="myshow.html" target="_self" class="menuitem" tabindex="-1">二手宝贝</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="myshow2.html" target="_self" class="menuitem" tabindex="-1">特产宝贝</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="mybrowse.html" target="_self">我的浏览</a></li>
+                    <li><a href="mycollect.html" target="_self">我的收藏</a></li>
+                    <li><a href="individual_center.html" target="_self">个人中心</a></li>
+                    <li><a href="agreement.html" target="_self">我要合作</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--注册主要内容-->
+    <div class="register">
+        <img src="../images/2.jpg">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h1>注&nbsp;&nbsp;&nbsp;册</h1>
+                </div>
+                <!--<div class="user">-->
+                    <!--<span class="glyphicon glyphicon-user" aria-hidden="true"></span> 个人信息-->
+                <!--</div>-->
+                <!--<form>-->
+                    <div class="input-group">
+                        <span class="input-group-addon">姓名</span>
+                        <input type="text" class="form-control" name="name" maxlength="12" required autofocus>
+                    </div>
+                    <!--<div class="input-group">-->
+                        <!--<span class="input-group-addon">性别</span>&nbsp;&nbsp;&nbsp;-->
+                        <!--<input type="radio" name="sex" value="boy" checked> 男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                        <!--<input type="radio" name="sex" value="girl"> 女-->
+                    <!--</div>-->
+                    <!--<div class="input-group">-->
+                        <!--<span class="input-group-addon">学校</span>-->
+                        <!--<input type="text" class="form-control" name="school">-->
+                    <!--</div>-->
+                    <div class="input-group">
+                        <span class="input-group-addon">学号</span>
+                        <input type="text" class="form-control" name="number"  maxlength="13" required placeholder="请输入正确学号以确保注册成功">
+                    </div>
+                    <!--<div class="input-group">-->
+                        <!--<span class="input-group-addon">在校住址</span>-->
+                        <!--<input type="text" class="form-control" name="add1" placeholder="栋">-->
+                        <!--<input type="text" class="form-control" name="add2" placeholder="室 如：601">-->
+                    <!--</div>-->
+                    <div class="input-group">
+                        <span class="input-group-addon">密码</span>
+                        <input type="password" class="form-control" maxlength="16" name="pwd" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">确认密码</span>
+                        <input type="password" class="form-control" maxlength="16" name="confirm" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">联系方式</span>
+                        <input type="text" class="form-control" name="tel">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">常用邮箱@</span>
+                        <input type="text" class="form-control" name="email">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">验证码</span>
+                        <input type="text" class="form-control" name="prove" style="width: 65px" maxlength="4">
+                    </div>
+                <div class="prove-img">
+                    <img src="" alt="验证码" style="width: 70px;height: 35px">&nbsp;
+                    <a href="#">看不清？</a>
+                </div>
+                </form>
+                <button type="submit" class="btn btn-success btn-lg sbm">提交</button>
+            </div>
+        </div>
+    </div>
+    <!--脚部-->
+    <footer class="foot">
+        已有账号  点击登录&nbsp;
+        <a href="login.html" class="btn btn-success">Sign in</a>
+    </footer>
+
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.min.js"></script>
+</body>
+</html>

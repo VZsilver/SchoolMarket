@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>添加二手宝贝</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/common.css" rel="stylesheet" type="text/css">
+    <link href="../css/add.css"  rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!--头部-->
+    <header class="main-head">
+        <div class="container">
+            <!--左侧的登录注册-->
+            <div class="head-left">
+                <ul class="list-inline">
+                    <li><a href="login.html" target="_self">请登录</a></li>
+                    <li><a href="register.html" target="_self">30秒注册</a></li>
+                    <li><a href="#" target="_self">手机客户端</a></li>
+                </ul>
+            </div>
+            <!--右侧的导航-->
+            <div class="head-right">
+                <ul class="list-inline">
+                    <li><a href="home.html" target="_self">首页</a></li>
+                    <li class="dropdown">
+                        <a href="myshow.html" class="dropdown-toggle" data-toggle="dropdown">
+                            我展出的宝贝
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">
+                                <a href="myshow.html" target="_self" class="menuitem" tabindex="-1">二手宝贝</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="myshow2.html" target="_self" class="menuitem" tabindex="-1">特产宝贝</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="mybrowse.html" target="_self">我的浏览</a></li>
+                    <li><a href="mycollect.html" target="_self">我的收藏</a></li>
+                    <li><a href="individual_center.html" target="_self">个人中心</a></li>
+                    <li><a href="agreement.html" target="_self">我要合作</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--Logo和搜索框-->
+    <div class="top">
+        <div class="container">
+            <!--Logo-->
+            <div class="logo">
+                <a href="home.html" target="_self">
+                    <img src="../images/sm2.png">
+                </a>
+            </div>
+            <!--搜索框-->
+            <div class="search">
+                <form class="form-group">
+                    <input type="text" class="form-control" placeholder="搜索..." name="search">
+                </form>
+                <button type="submit" class="btn btn-info">搜索</button>
+            </div>
+        </div>
+    </div>
+
+    <!--主体内容-->
+    <div class="middle">
+        <div class="caption">
+            <h2>添加二手宝贝</h2>
+        </div>
+        <div class="content">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">宝贝名称</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="name" placeholder="请输入产品名称">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                        <label class="col-md-3 control-label">宝贝原价</label>
+                    <div class="input-group col-md-5">
+                        <span class="input-group-addon">¥</span>
+                        <input type="text" class="form-control" name="orgprice">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                        <label class="col-md-3 control-label">宝贝现价</label>
+                    <div class="input-group col-md-5">
+                        <span class="input-group-addon">¥</span>
+                        <input type="text" class="form-control" name="newprice">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                        <label class="col-md-3 control-label">宝贝新旧</label>
+                    <div class="input-group col-md-5">
+                        <select class="form-control" name="new">
+                            <option>全新</option>
+                            <option>9成新</option>
+                            <option>8成新</option>
+                            <option>7成新</option>
+                            <option>6成新</option>
+                            <option>5成新</option>
+                            <option>4成新</option>
+                            <option>3成新</option>
+                            <option>2成新</option>
+                            <option>1成新</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">购买日期</label>
+                    <div class="col-md-3">
+                        <input type="date" name="date">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">宝贝类别</label>
+                    <div class="col-md-9">
+                        <input type="checkbox" name="type1">
+                        <input type="checkbox" name="type2">
+                        <input type="checkbox" name="type3">
+                        <input type="checkbox" name="type4">
+                        <input type="checkbox" name="type5">
+                        <input type="checkbox" name="type6">
+                        <input type="checkbox" name="type7">
+                        <input type="checkbox" name="type8">
+                        <input type="checkbox" name="type9">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">交易地点</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="address">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">详情描述</label>
+                    <div class="col-md-8">
+                        <textarea class="form-control" rows="4" name="detail"></textarea>
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">上传图片</label>
+                    <div class="col-md-8">
+                        <input type="file" name="pic" accept="jpg/png">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">验证码</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" name="prove" style="width: 70px" maxlength="4">
+                    </div>
+                    <div class="col-md-5">
+                        <img src="" alt="验证码" style="width: 80px;height: 35px">&nbsp;
+                        <a href="#">看不清？</a>
+                    </div>
+                </div>
+            </form>
+            <button type="submit" class="btn btn-info btn-lg sbm">提交</button>
+        </div>
+    </div>
+
+    <!--底部-->
+    <footer class="main-foot">
+        <p>Copyright © </p>
+    </footer>
+
+</body>
+</html>
+
+
+

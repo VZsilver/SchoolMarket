@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>登陆</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/common.css" rel="stylesheet" type="text/css">
+    <link href="../css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!--头部-->
+    <header class="main-head">
+        <div class="container">
+            <!--左侧登录导航-->
+            <div class="head-left">
+                <ul class="list-inline">
+                    <li><a href="login.html" target="_self">请登录</a></li>
+                    <li><a href="register.html" target="_self">30秒注册</a></li>
+                    <li><a href="#" target="_self">手机客户端</a></li>
+                </ul>
+            </div>
+            <!--右侧导航-->
+            <div class="head-right">
+                <ul class="list-inline">
+                    <li><a href="home.html" target="_self">首页</a></li>
+                    <li class="dropdown">
+                        <a href="myshow.html" class="dropdown-toggle" data-toggle="dropdown">
+                            我展出的宝贝
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li role="presentation">
+                                <a href="myshow.html" target="_self" class="menuitem" tabindex="-1">二手宝贝</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="myshow2.html" target="_self" class="menuitem" tabindex="-1">特产宝贝</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="mybrowse.html" target="_self">我的浏览</a></li>
+                    <li><a href="mycollect.html" target="_self">我的收藏</a></li>
+                    <li><a href="individual_center.html" target="_self">个人中心</a></li>
+                    <li><a href="agreement.html" target="_self">我要合作</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--登陆主要内容-->
+    <div class="login">
+        <img src="../images/10.jpg">
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <span>登录</span>
+                </div>
+                <form>
+                    <div class="input-group">
+                        <span class="input-group-addon">用户名</span>
+                        <input type="text" class="form-control" name="name" required autofocus>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">密码</span>
+                        <input type="password" class="form-control" name="password" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">验证码</span>
+                        <input type="text" class="form-control" name="prove" style="width: 62px" maxlength="4">
+                    </div>
+                    <div class="prove-img">
+                        <img src="" alt="验证码" style="width: 70px;height: 35px">&nbsp;
+                        <a href="#">看不清？</a>
+                    </div>
+                </form>
+                <div class="remember">
+                    <input type="checkbox" value="value">  记住我
+                    <button class="btn btn-info" type="submit">登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <footer class="foot">
+        没有账号?  30秒注册&nbsp;
+        <a href="register.html" class="btn btn-info">Register</a>
+    </footer>
+</body>
+</html>

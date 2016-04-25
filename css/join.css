@@ -1,0 +1,46 @@
+.main-head{
+    height: 70px;
+}
+
+.head-right{
+    position: absolute;
+    left: 740px;
+}
+
+.join-us{
+    width: 780px;
+    height: 900px;
+    border: 3px solid #6cc88a;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 0 0 10px #6cc88a;
+    -webkit-box-shadow: 0 0 10px #6cc88a;
+    -moz-box-shadow: 0 0 10px #6cc88a;
+}
+
+.title{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    color: #6cc88a;
+}
+
+hr{
+    border: 1px dashed #6cc88a;
+}
+
+button[type=submit]{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 20px;
+}
+
+.main-foot{
+    background: #aaaaab;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>完善资料</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/common.css" rel="stylesheet" type="text/css">
+    <link href="../css/individual_data.css"  rel="stylesheet" type="text/css">
+    <style>
+        .data{
+            height: 600px;
+        }
+        .right-nav ul a:nth-child(2) li{
+            background: #00bce6;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<!--头部-->
+<header class="main-head">
+    <div class="container">
+        <!--左侧登录导航-->
+        <div class="head-left">
+            <ul class="list-inline">
+                <li><a href="login.html" target="_self">请登录</a></li>
+                <li><a href="register.html" target="_self">30秒注册</a></li>
+                <li><a href="#" target="_self">手机客户端</a></li>
+            </ul>
+        </div>
+        <!--右侧导航-->
+        <div class="head-right">
+            <ul class="list-inline">
+                <li><a href="home.html" target="_self">首页</a></li>
+                <li class="dropdown">
+                    <a href="myshow.html" class="dropdown-toggle" data-toggle="dropdown">
+                        我展出的宝贝
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation">
+                            <a href="myshow.html" target="_self" class="menuitem" tabindex="-1">二手宝贝</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="myshow2.html" target="_self" class="menuitem" tabindex="-1">特产宝贝</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="mybrowse.html" target="_self">我的浏览</a></li>
+                <li><a href="mycollect.html" target="_self">我的收藏</a></li>
+                <li><a href="individual_center.html" target="_self">个人中心</a></li>
+                <li><a href="agreement.html" target="_self">我要合作</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="top">
+    <div class="container">
+        <a href="home.html" target="_self">
+            <img src="../images/sm2.png">
+        </a>
+    </div>
+</div>
+
+<!--中间主体-->
+<div class="container">
+    <div class="data">
+        <div class="right-nav">
+            <h3>个人资料管理</h3>
+            <ul>
+                <a href="individual_data.html" target="_self"><li>个人资料</li></a>
+                <a href="perfect_data.html" target="_self"><li>完善资料</li></a>
+            </ul>
+        </div>
+        <div class="content">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">联系方式:</label>
+                    <div class="col-md-6">
+                        <input type="tel" class="form-control" placeholder="具体联系方式" maxlength="15" name="tel">
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-success btn-sm">修改</button>
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">QQ号:</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="具体QQ号" maxlength="15" name="qq">
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-success btn-sm">修改</button>
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">常用邮箱:</label>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="具体邮箱" maxlength="25" name="eamil">
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-success btn-sm">修改</button>
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">籍贯:</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="具体籍贯" maxlength="15" name="address">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">住校地址:</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="具体住校地址" maxlength="15" name="schooladd">
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-success btn-sm">修改</button>
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">出生日期:</label>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="具体出生日期" maxlength="15" name="date">
+                    </div>
+                </div>
+            </form>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">展出宝贝数量:</label>
+                    <label class="col-md-2 control-label">
+                        二手宝贝x件
+                        <a href="add.html" target="_blank" class="btn btn-info">添加二手宝贝</a>
+                    </label>
+                    <label class="col-md-2 control-label">
+                        特产宝贝y件
+                        <a href="add2.html" target="_blank" class="btn btn-success">添加特产宝贝</a>
+                    </label>
+                </div>
+            </form>
+            <div class="col-md-2 col-md-offset-4">
+                <button type="submit" class="btn btn-success" style="width: 200px;margin-top: 30px">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

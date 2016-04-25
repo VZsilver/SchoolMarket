@@ -1,0 +1,49 @@
+.main-head{
+    height: 70px;
+}
+
+.head-right{
+    position: absolute;
+    left: 740px;
+}
+
+.join-us{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.title{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    border: 2px solid gray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.choice{
+    width: 150px;
+    height: 60px;
+    float: left;
+}
+
+.button{
+    float: right;
+    margin-top: 20px;
+}
+
+.button button{
+    margin-left: 50px;
+    width: 150px;
+}
